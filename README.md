@@ -34,7 +34,7 @@ pip install .
 Or, after publication on PyPI:
 
 ```bash
-pip install Klefki
+pip install klefki-gen
 ```
 
 ## Usage
