@@ -14,7 +14,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "klefki=klefki-gen.__main__:cli"
+            "klefki=klefki.__main__:cli"
         ]
     },
     python_requires=">=3.6",
