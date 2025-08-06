@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="klefki",  # use sempre letras minúsculas aqui para evitar problemas no PyPI
+    name="klefki-gen",  # use sempre letras minúsculas aqui para evitar problemas no PyPI
     version="1.0.0",
     description="Secure and customizable password generator.",
     long_description=open("README.md", encoding="utf-8").read(),
@@ -14,7 +14,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "klefki=klefki.__main__:cli"
+            "klefki=klefki-gen.__main__:cli"
         ]
     },
     python_requires=">=3.6",
